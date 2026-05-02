@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>AgentKit.Maf</RootNamespace>
+    <Description>AgentKit MAF 适配层，封装 ChatClientAgent 组装、Session 桥接、事件投影等。</Description>
+    <NoWarn>$(NoWarn);MEAI001;MAAI001;</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgentKit.Protocol\AgentKit.Protocol.csproj" />
+    <ProjectReference Include="..\AgentKit.Abstractions\AgentKit.Abstractions.csproj" />
+    <ProjectReference Include="..\AgentKit.Capabilities\AgentKit.Capabilities.csproj" />
+    <ProjectReference Include="..\AgentKit.Storage.Abstractions\AgentKit.Storage.Abstractions.csproj" />
+    <ProjectReference Include="..\AgentKit.Core\AgentKit.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Agents.AI" />
+    <PackageReference Include="Microsoft.Agents.AI.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.AI" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>AgentKit.Protocol</RootNamespace>
+    <Description>AgentKit 公共协议层，包含定义、请求、结果、事件等稳定契约类型。</Description>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>AgentKit.Extensions.DependencyInjection</RootNamespace>
+    <Description>AgentKit DI 扩展，提供一站式注册入口。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgentKit.Core\AgentKit.Core.csproj" />
+    <ProjectReference Include="..\AgentKit.Maf\AgentKit.Maf.csproj" />
+    <ProjectReference Include="..\AgentKit.Capabilities\AgentKit.Capabilities.csproj" />
+    <ProjectReference Include="..\AgentKit.Storage.InMemory\AgentKit.Storage.InMemory.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Options" />
+  </ItemGroup>
+
+</Project>

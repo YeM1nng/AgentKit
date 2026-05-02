@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:openai.github.io)",
+      "WebFetch(domain:langchain-ai.github.io)",
+      "WebFetch(domain:microsoft.github.io)",
+      "Bash(dotnet build *)",
+      "Bash(dotnet new *)",
+      "Bash(dotnet sln *)",
+      "Bash(dotnet test *)",
+      "Bash(python3 -c ' *)",
+      "Bash(dotnet nuget *)",
+      "Bash(xargs grep *)",
+      "Bash(git status *)"
+    ]
+  }
+}

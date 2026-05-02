@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AgentKit.Abstractions/AgentKit.Abstractions.csproj" />
+    <Project Path="src/AgentKit.Capabilities/AgentKit.Capabilities.csproj" />
+    <Project Path="src/AgentKit.Core/AgentKit.Core.csproj" />
+    <Project Path="src/AgentKit.Extensions.DependencyInjection/AgentKit.Extensions.DependencyInjection.csproj" />
+    <Project Path="src/AgentKit.Maf/AgentKit.Maf.csproj" />
+    <Project Path="src/AgentKit.Protocol/AgentKit.Protocol.csproj" />
+    <Project Path="src/AgentKit.Storage.Abstractions/AgentKit.Storage.Abstractions.csproj" />
+    <Project Path="src/AgentKit.Storage.InMemory/AgentKit.Storage.InMemory.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AgentKit.Core.Tests/AgentKit.Core.Tests.csproj" />
+    <Project Path="tests/AgentKit.Maf.Tests/AgentKit.Maf.Tests.csproj" />
+    <Project Path="tests/AgentKit.Protocol.Tests/AgentKit.Protocol.Tests.csproj" />
+    <Project Path="tests/AgentKit.Storage.InMemory.Tests/AgentKit.Storage.InMemory.Tests.csproj" />
+  </Folder>
+</Solution>

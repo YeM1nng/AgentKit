@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>AgentKit.Storage</RootNamespace>
+    <Description>AgentKit 存储协议层，定义 Session、Event、Approval 存储接口。</Description>
+  </PropertyGroup>
+
+</Project>
